@@ -38,6 +38,7 @@
 		58B958151B8F419400B329C5 /* swift2048Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swift2048Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58B9581A1B8F419400B329C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58B9581B1B8F419400B329C5 /* swift2048Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift2048Tests.swift; sourceTree = "<group>"; };
+		58B958251B8F453700B329C5 /* swift2048.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = swift2048.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +87,7 @@
 				58B9580E1B8F419400B329C5 /* LaunchScreen.xib */,
 				58B958041B8F419400B329C5 /* swift2048.xcdatamodeld */,
 				58B958001B8F419400B329C5 /* Supporting Files */,
+				58B958251B8F453700B329C5 /* swift2048.playground */,
 			);
 			path = swift2048;
 			sourceTree = "<group>";
