@@ -14,6 +14,9 @@
 		58B9580D1B8F419400B329C5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58B9580C1B8F419400B329C5 /* Images.xcassets */; };
 		58B958101B8F419400B329C5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58B9580E1B8F419400B329C5 /* LaunchScreen.xib */; };
 		58B9581C1B8F419400B329C5 /* swift2048Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B9581B1B8F419400B329C5 /* swift2048Tests.swift */; };
+		58CDEE651B9C862A0018CC6D /* mainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CDEE641B9C862A0018CC6D /* mainViewController.swift */; };
+		58CDEE671B9C86710018CC6D /* setViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CDEE661B9C86710018CC6D /* setViewController.swift */; };
+		58CDEE6A1B9C86BA0018CC6D /* mainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CDEE691B9C86BA0018CC6D /* mainTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +41,9 @@
 		58B958151B8F419400B329C5 /* swift2048Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swift2048Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58B9581A1B8F419400B329C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58B9581B1B8F419400B329C5 /* swift2048Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift2048Tests.swift; sourceTree = "<group>"; };
-		58B958251B8F453700B329C5 /* swift2048.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = swift2048.playground; sourceTree = "<group>"; };
+		58CDEE641B9C862A0018CC6D /* mainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = mainViewController.swift; path = swift2048/mainViewController.swift; sourceTree = "<group>"; };
+		58CDEE661B9C86710018CC6D /* setViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = setViewController.swift; path = swift2048/setViewController.swift; sourceTree = "<group>"; };
+		58CDEE691B9C86BA0018CC6D /* mainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +67,7 @@
 		58B957F41B8F419300B329C5 = {
 			isa = PBXGroup;
 			children = (
+				58CDEE681B9C86770018CC6D /* controller */,
 				58B957FF1B8F419300B329C5 /* swift2048 */,
 				58B958181B8F419400B329C5 /* swift2048Tests */,
 				58B957FE1B8F419300B329C5 /* Products */,
@@ -87,7 +93,6 @@
 				58B9580E1B8F419400B329C5 /* LaunchScreen.xib */,
 				58B958041B8F419400B329C5 /* swift2048.xcdatamodeld */,
 				58B958001B8F419400B329C5 /* Supporting Files */,
-				58B958251B8F453700B329C5 /* swift2048.playground */,
 			);
 			path = swift2048;
 			sourceTree = "<group>";
@@ -115,6 +120,16 @@
 				58B9581A1B8F419400B329C5 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		58CDEE681B9C86770018CC6D /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				58CDEE641B9C862A0018CC6D /* mainViewController.swift */,
+				58CDEE661B9C86710018CC6D /* setViewController.swift */,
+				58CDEE691B9C86BA0018CC6D /* mainTableViewController.swift */,
+			);
+			name = controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,8 +233,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				58B958081B8F419400B329C5 /* ViewController.swift in Sources */,
+				58CDEE6A1B9C86BA0018CC6D /* mainTableViewController.swift in Sources */,
 				58B958031B8F419400B329C5 /* AppDelegate.swift in Sources */,
 				58B958061B8F419400B329C5 /* swift2048.xcdatamodeld in Sources */,
+				58CDEE651B9C862A0018CC6D /* mainViewController.swift in Sources */,
+				58CDEE671B9C86710018CC6D /* setViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +433,7 @@
 				58B958211B8F419400B329C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		58B958221B8F419400B329C5 /* Build configuration list for PBXNativeTarget "swift2048Tests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +442,7 @@
 				58B958241B8F419400B329C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

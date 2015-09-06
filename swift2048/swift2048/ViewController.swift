@@ -26,6 +26,11 @@ class ViewController: UIViewController {
         alterView.message = "ARE YOU READY?"
         alterView.addButtonWithTitle("READY GO!")
         alterView.show()
+        alterView.delegate = self
+    }
+    
+    func alterView(alterView:UIAlertView, clickedButtonAtIndex buttonIndex:Int){
+        self.presentViewController(mainTableViewController(), animated:true, completion:nil)
     }
 }
 
