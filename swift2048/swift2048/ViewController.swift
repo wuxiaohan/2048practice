@@ -21,15 +21,15 @@ class ViewController: UIViewController {
     }
 
     @IBAction func  startGame(sender:UIButton){
-        let alterView = UIAlertView()
-        alterView.title = "START"
-        alterView.message = "ARE YOU READY?"
-        alterView.addButtonWithTitle("READY GO!")
-        alterView.show()
-        alterView.delegate = self
+        let alertView = UIAlertView()
+        alertView.title = "START"
+        alertView.message = "ARE YOU READY?"
+        alertView.addButtonWithTitle("READY GO!")
+        alertView.show()
+        alertView.delegate = self
     }
     
-    func alterView(alterView:UIAlertView, clickedButtonAtIndex buttonIndex:Int){
+    func alertView(alertView:UIAlertView, clickedButtonAtIndex buttonIndex:Int){
         self.presentViewController(mainTableViewController(), animated:true, completion:nil)
     }
 }
