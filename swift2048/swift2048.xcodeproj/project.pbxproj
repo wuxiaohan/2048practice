@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5887DFBD1BAAF00C002A6C11 /* TileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5887DFBC1BAAF00C002A6C11 /* TileView.swift */; };
 		58B958031B8F419400B329C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B958021B8F419400B329C5 /* AppDelegate.swift */; };
 		58B958061B8F419400B329C5 /* swift2048.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 58B958041B8F419400B329C5 /* swift2048.xcdatamodeld */; };
 		58B958081B8F419400B329C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B958071B8F419400B329C5 /* ViewController.swift */; };
@@ -30,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5887DFBC1BAAF00C002A6C11 /* TileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TileView.swift; sourceTree = "<group>"; };
 		58B957FD1B8F419300B329C5 /* swift2048.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swift2048.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58B958011B8F419400B329C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58B958021B8F419400B329C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -64,9 +66,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5887DFBB1BAAEFE7002A6C11 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				5887DFBC1BAAF00C002A6C11 /* TileView.swift */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
 		58B957F41B8F419300B329C5 = {
 			isa = PBXGroup;
 			children = (
+				5887DFBB1BAAEFE7002A6C11 /* view */,
 				58CDEE681B9C86770018CC6D /* controller */,
 				58B957FF1B8F419300B329C5 /* swift2048 */,
 				58B958181B8F419400B329C5 /* swift2048Tests */,
@@ -233,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				58B958081B8F419400B329C5 /* ViewController.swift in Sources */,
+				5887DFBD1BAAF00C002A6C11 /* TileView.swift in Sources */,
 				58CDEE6A1B9C86BA0018CC6D /* mainTableViewController.swift in Sources */,
 				58B958031B8F419400B329C5 /* AppDelegate.swift in Sources */,
 				58B958061B8F419400B329C5 /* swift2048.xcdatamodeld in Sources */,
